@@ -684,11 +684,25 @@ a,a:hover,a:focus,a:visited{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 170px 0 150px;
+    padding: 100px 0 80px;
     position: relative;
     color: #ffffff;
     overflow: hidden;
 }
+
+/* Ensure the banner image scales properly */
+.as_banner_img {
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.as_banner_img img {
+    max-height: 100%;
+    width: auto;
+}
+
 .as_banner_detail .as_btn {
     background: #ffffff;
     color: var(--dark-color1);
@@ -700,7 +714,8 @@ a,a:hover,a:focus,a:visited{
     color: #ffffff;
 }
 
-.as_banner_wrapper:after{
+/* Removing the jagged overlay effect */
+/* .as_banner_wrapper:after{
     position: absolute;
     content: '';
     background: url(../images/shape.svg) no-repeat;
@@ -711,7 +726,7 @@ a,a:hover,a:focus,a:visited{
     bottom: 0;
     transform: scale(-1);
     z-index: 1;
-}
+} */
 .as_banner_detail h5{
     font-size: 26px;
     margin: 0 0 5px;
