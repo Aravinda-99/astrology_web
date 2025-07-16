@@ -1,5 +1,5 @@
 <section class="as_header_wrapper">
-            <div class="as_info_detail">
+            <!-- <div class="as_info_detail">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -53,7 +53,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
