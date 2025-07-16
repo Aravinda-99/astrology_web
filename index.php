@@ -94,12 +94,14 @@
                                     <h1>Experience</h1>
                                 </div>
                             </div>
-                            <a href="about.html" class="as_btn">read more</a>
+                            <a href="about.php" class="as_btn">read more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <?php include './home/scheduleAppointment.php'; ?>
        
         <section class="as_horoscope_wrapper as_padderBottom80 as_padderTop80">
             <div class="container">
