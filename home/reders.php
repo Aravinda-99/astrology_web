@@ -1,7 +1,7 @@
 <style>
         /* --- Readers Section Styles --- */
         .as_readers_wrapper {
-            padding: 5px 0;
+            padding: 10px 0;
             background-color: #ffffff;
         }
 
