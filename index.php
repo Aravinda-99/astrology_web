@@ -111,15 +111,12 @@
             <?php include './home/comitment.php'; ?>
         </div>
 
-        <!-- Schedule Appointment Section -->
-        <div class="as_schedule_section as_padderTop80 as_padderBottom80">
-            <?php include './home/scheduleAppointment.php'; ?>
+        <!-- Service Section -->
+        <div class="as_service_section">
+            <?php include './home/service.php'; ?>
         </div>
 
-        <!-- Blog Section -->
-        <div class="as_blog_section">
-            <?php include './home/blog.php'; ?>
-        </div>
+        
        
         <section class="as_horoscope_wrapper as_padderBottom80 as_padderTop80">
             <div class="container">
@@ -291,7 +288,22 @@
                 </div>
             </div>
         </section>
-        <section class="as_service_wrapper as_padderTop80 as_padderBottom80">
+
+
+
+        <!-- Readers Section -->
+        <div class="as_readers_section">
+            <?php include './home/reders.php'; ?>
+        </div>
+
+        
+
+        <!-- Blog Section -->
+        <div class="as_blog_section">
+            <?php include './home/blog.php'; ?>
+        </div>
+
+        <!-- <section class="as_service_wrapper as_padderTop80 as_padderBottom80">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -379,7 +391,7 @@
                    </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="as_whychoose_wrapper">
             <div class="container-fluid">
@@ -493,7 +505,7 @@
             </div>
         </section>
 
-        <section class="as_product_wrapper as_padderBottom80 as_padderTop80">
+        <!-- <section class="as_product_wrapper as_padderBottom80 as_padderTop80">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 text-center">
@@ -592,9 +604,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         
-        <section class="as_blog_wrapper as_padderTop80 as_padderBottom80">
+        <!-- <section class="as_blog_wrapper as_padderTop80 as_padderBottom80">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 text-center">
@@ -665,7 +677,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         
         
         <section class="as_footer_wrapper as_padderTop80">

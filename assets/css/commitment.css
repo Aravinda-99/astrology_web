@@ -4,11 +4,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem 1rem;
+    padding: 3rem 0;
     background-color: #0a0f1f;
     font-family: 'Inter', sans-serif;
-    border-radius: 2rem;
-    margin: 1rem;
+    width: 100%;
     position: relative;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -23,13 +22,13 @@
     right: 0;
     bottom: 0;
     background: linear-gradient(45deg, rgba(255, 211, 99, 0.03), rgba(10, 15, 31, 0.1));
-    border-radius: 2rem;
 }
 
 .commitment-container {
-    max-width: 75rem;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
+    padding: 0 1rem;
     position: relative;
     z-index: 1;
 }
@@ -68,19 +67,25 @@
 .commitment-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
+    justify-items: center;
 }
 
 @media (min-width: 768px) {
     .commitment-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        gap: 1rem;
+        justify-items: center;
     }
 }
 
 @media (min-width: 1024px) {
     .commitment-grid {
         grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        justify-items: center;
+        max-width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -91,6 +96,7 @@
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 80%;
 }
 
 .commitment-card:hover {
