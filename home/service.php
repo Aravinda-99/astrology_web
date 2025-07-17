@@ -1,7 +1,7 @@
 <style>
         /* --- Service Section Styles --- */
         .as_service_wrapper {
-            padding: 80px 0;
+            padding: 15px 0;
             background-color: #f8f9fa;
         }
 
@@ -114,6 +114,7 @@
         <div class="row">
             <div class="col-lg-10">
                 <h1 class="as_heading" style="text-align: left;">Our Services</h1>
+                
             </div>
         </div>
         <div class="row">

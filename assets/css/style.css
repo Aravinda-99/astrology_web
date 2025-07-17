@@ -1568,7 +1568,7 @@ section.as_pricing_plan .row {
     color: #fff;
     z-index: 1;
 }
-.as_footer_wrapper:before{
+/* .as_footer_wrapper:before{
     position: absolute;
     content: '';
     background: url(../images/shape.svg) no-repeat;
@@ -1578,7 +1578,7 @@ section.as_pricing_plan .row {
     right: 0;
     top: 0;
     z-index: 1;
-}
+} */
 .as_shopsingle_page .as_footer_wrapper:before {
     background: url(../images/shape2.svg) no-repeat;
 }
