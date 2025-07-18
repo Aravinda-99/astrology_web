@@ -281,3 +281,27 @@ $(document).ready(function(){
 $(window).on('load',function(){
     $('.as_loader').addClass('hide')
 });
+
+// Scroll Animation for What Do We Do Section
+document.addEventListener('DOMContentLoaded', function() {
+    const aboutSection = document.querySelector('.as_about_detail');
+    
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.3
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                observer.unobserve(entry.target); // Stop observing once animated
+            }
+        });
+    }, options);
+
+    if (aboutSection) {
+        observer.observe(aboutSection);
+    }
+});

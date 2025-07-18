@@ -293,10 +293,12 @@
             <?php include './home/service.php'; ?>
         </div>
 
-        <!-- Readers Section -->
-        <div class="as_readers_section">
-            <?php include './home/reders.php'; ?>
+        <!-- Celebrity Videos Section -->
+        <div class="as_celebrity_videos_section">
+            <?php include './home/celebrity_videos.php'; ?>
         </div>
+
+        
 
         
 

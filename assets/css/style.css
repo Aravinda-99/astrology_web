@@ -867,7 +867,7 @@ a,a:hover,a:focus,a:visited{
 /* banner css end */
 /* about css start */
 .as_about_wrapper{
-    background-image: url('../images/bg2.jpg');
+    background-image: url('../images/background/bg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -3964,4 +3964,51 @@ form.d_block {
 
 .as_wishlist, .as_cart {
     margin-left: 20px;
+}
+
+.as_about_detail {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.as_about_detail.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.as_about_detail .as_heading {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+    transition-delay: 0.2s;
+}
+
+.as_about_detail.animate .as_heading {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.as_about_detail .as_paragraph_wrapper {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+    transition-delay: 0.4s;
+}
+
+.as_about_detail.animate .as_paragraph_wrapper {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.as_contact_expert {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+    transition-delay: 0.6s;
+}
+
+.as_about_detail.animate .as_contact_expert {
+    opacity: 1;
+    transform: translateY(0);
 }
