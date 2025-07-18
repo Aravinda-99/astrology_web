@@ -54,7 +54,7 @@
 
         /* Popular Card Styling */
         .pricing-card.popular {
-            border-color: #D4FF00;
+            border-color:rgb(243, 153, 69);
             transform: scale(1.05);
             z-index: 1;
         }
@@ -67,7 +67,7 @@
             position: absolute;
             top: -14px;
             right: 20px;
-            background-color: #D4FF00;
+            background-color:rgb(243, 164, 89);
             color: #000;
             padding: 0.4rem 0.8rem;
             font-size: 0.75rem;
@@ -151,7 +151,7 @@
         }
         
         .pricing-card.popular .subscribe-btn {
-            background-color: #D4FF00;
+            background-color:rgb(250, 187, 105);
             border-color: #D4FF00;
             color: #000;
             font-weight: 700;

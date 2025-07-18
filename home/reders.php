@@ -21,7 +21,7 @@
         }
 
         .section-title {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
             font-weight: 600;
             color: #333333;
             margin: 0;

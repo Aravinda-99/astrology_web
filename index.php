@@ -72,9 +72,12 @@
                         <p class="as_font14 as_padderTop20 as_padderBottom50">It is a long established fact that a reader will be distracted by the readable content of a page <br>when looking at its layout. The point of using Lorem Ipsum .</p>
                     </div> -->
                     <div class="col-lg-6 col-md-6">
-                        <div class="as_aboutimg text-right">
-                            <img src="assets/images/about.jpg" alt="" class="img-responsive">
-                            <span class="as_play"><img src="assets/images/play.png" alt=""></span>
+                        <div class="as_aboutimg text-right position-relative">
+                            <div class="image-stack">
+                                <img src="assets/images/blog1.jpg" alt="" class="img-responsive overlay-image">
+                                <img src="assets/images/blog1.jpg" alt="" class="img-responsive main-image">
+                            </div>
+                            <!-- <span class="as_play"><img src="assets/images/play.png" alt=""></span> -->
                         </div> 
                     </div>
                     <div class="col-lg-6 col-md-6">
