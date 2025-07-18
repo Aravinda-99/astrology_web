@@ -59,7 +59,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                         <div class="as_logo">
                             <a href="index.html">
-                                <img src="assets/images/logo.svg" alt="">
+                                <img src="assets/images/astrologo.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -98,8 +98,8 @@
                                     </ul>
                                 </div>
                             </div>
-                            <a href="javascript:;" class="as_wishlist"><img src="assets/images/svg/wishlist.svg" alt=""></a>
-                            <div class="as_cart">
+                            <!-- <a href="javascript:;" class="as_wishlist"><img src="assets/images/svg/wishlist.svg" alt=""></a> -->
+                            <!-- <div class="as_cart">
                                 <div class="as_cart_wrapper">
                                     <span><img src="assets/images/svg/cart.svg" alt=""><span class="as_cartnumber">02</span></span>
                                 </div>
@@ -137,7 +137,7 @@
                                         <button type="button" class="as_btn">checkout</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
