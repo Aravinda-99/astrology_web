@@ -453,51 +453,19 @@
                           </span>
                         <p class="as_font14 as_padderBottom50 as_padderTop20">Consectetur adipiscing elit, sed do eiusmod tempor incididuesdeentiut labore <br>etesde dolore magna aliquapspendisse and the gravida.</p>
 
-                        <div class="row as_customer_slider">
-                            <div class="col-lg-5 col-md-5 as_customer_nav">
-                                <div class="as_customer_img">
-                                    <img src="assets/images/c1.jpg" alt="" class="img-responsive">
-                                </div>
-                                <div class="as_customer_img">
-                                    <img src="assets/images/c2.jpg" alt="" class="img-responsive">
-                                </div>
-                                <div class="as_customer_img">
-                                    <img src="assets/images/c3.jpg" alt="" class="img-responsive">
-                                </div>
-                                <div class="as_customer_img">
-                                    <img src="assets/images/c4.jpg" alt="" class="img-responsive">
-                                </div>
-                                <div class="as_customer_img">
-                                    <img src="assets/images/c5.jpg" alt="" class="img-responsive">
-                                </div>
-                                <div class="as_customer_img">
-                                    <img src="assets/images/c6.jpg" alt="" class="img-responsive">
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-md-7 as_customer_for">
+                        <div class="row">
+                            <div class="col-lg-12 as_customer_for">
                                 <div class="as_customer_box text-center">
-                                    <p class="as_margin0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."</p>
+                                    <p class="as_margin0">"The insights provided were truly life-changing. I gained clarity about my path and purpose."</p>
                                     <h3>A. Dennett - <span>Astrologer</span></h3>
                                 </div>
                                 <div class="as_customer_box text-center">
-                                    <p class="as_margin0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."</p>
+                                    <p class="as_margin0">"Exceptional guidance that helped me make important life decisions with confidence."</p>
                                     <h3>R. Lilly - <span>Astrologer</span></h3>
                                 </div>
                                 <div class="as_customer_box text-center">
-                                    <p class="as_margin0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."</p>
+                                    <p class="as_margin0">"The accuracy of the readings was remarkable. I found the guidance invaluable."</p>
                                     <h3>David Parker - <span>Astrologer</span></h3>
-                                </div>
-                                <div class="as_customer_box text-center">
-                                    <p class="as_margin0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."</p>
-                                    <h3>David Lee - <span>Astrologer</span></h3>
-                                </div>
-                                <div class="as_customer_box text-center">
-                                    <p class="as_margin0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."</p>
-                                    <h3>H. Wang - <span>Astrologer</span></h3>
-                                </div>
-                                <div class="as_customer_box text-center">
-                                    <p class="as_margin0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."</p>
-                                    <h3>G. Zirkle - <span>Astrologer</span></h3>
                                 </div>
                             </div>
                         </div>

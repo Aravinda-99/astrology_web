@@ -99,23 +99,28 @@ $(document).ready(function(){
     });
     // customer slider
     $('.as_customer_for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      infinite:true,
-      speed:800,
-      dots:false,
-      arrows: false,
-      fade: true,
-      asNavFor: '.as_customer_nav'
-  });
-  $('.as_customer_nav').slick({
-      slidesToShow: 6,
-      arrows: false,
-      slidesToScroll: 1,
-      asNavFor: '.as_customer_for',
-      dots: false,
-      centerMode: true,
-      focusOnSelect: true
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        speed: 800,
+        dots: false,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
     // card slider
     $('.as_card_slider').slick({

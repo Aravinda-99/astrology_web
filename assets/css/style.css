@@ -1163,12 +1163,82 @@ a,a:hover,a:focus,a:visited{
 }
 /* why choose css end */
 /* customer css start */
+/* Card styles */
+.as_customer_box{
+    margin: 15px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    min-height: 200px;
+}
+
+.as_customer_box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.as_customer_box p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.as_customer_box h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.as_customer_box h3 span {
+    font-size: 13px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.as_customer_for {
+    padding: 0 30px;
+}
+
+.slick-slide {
+    margin: 0 15px;
+}
+
+/* Slider navigation */
+.as_customer_for .slick-prev,
+.as_customer_for .slick-next {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.as_customer_for .slick-prev:hover,
+.as_customer_for .slick-next:hover {
+    background: #f37e21;
+    color: #fff;
+}
+
+.as_customer_for .slick-prev {
+    left: -10px;
+}
+
+.as_customer_for .slick-next {
+    right: -10px;
+}
 .as_customer_wrapper{
     background-image: url('../images/bg6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     overflow: hidden;
+    padding-top: 30px !important;
+    padding-bottom: 60px !important;
 }
 .as_customer_img{
     width: 89px !important;
